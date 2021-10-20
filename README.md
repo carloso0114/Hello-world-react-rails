@@ -1,76 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Hello World Rails React
 
-> One paragraph statement about the project.
+To fetch a greeting just fech the endpoint v1/greetings
 
-![screenshot](./app_screenshot.png)
+## :hammer: Built With
 
-Additional description about the project and its features.
+- React and Rails.
 
-## Built With
+To get a local copy up and running follow these simple steps:
 
-- Major languages
-- Frameworks
-- Technologies used
+1. Go to the [repository page](https://github.com/carloso0114/Hello-world-react-rails).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
+4. In the project folder run `rails db:create`
+5. In the project folder run `rails db:migrate`
+6. In the project folder run `rails db:seed`
+7. Then run in the terminal `rails server`
 
-## Live Demo
+## :blue_book: Objectives
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+-Create a table for storing your messages and create 5 different greetings.
+-Create an API endpoint that selects a random greeting from your table (you will need a controller with an action and Rails route).
+-Create a static view that will be the root of your app.
+-Create the App component with react-router and render it in your static view.
+-Create the Greeting component that will display a greeting. Set it up as a route in your App component.
+-Create a store, an action and a reducer that will connect to you API endpont to get the random greeting.
+-Display the random greeting in your Greeting component.
 
 ## Authors
 
-👤 **Author1**
+👤 **Carloso0114**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@carloso0114](https://github.com/carloso0114)
+- LinkedIn: [Carlos Ospina](https://www.linkedin.com/in/carlosospina/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+## 🤝 :raised_hand: :raised_hand: Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/carloso0114/Hello-world-react-rails/issues).
 
-## Show your support
+## :grey_exclamation: Acknowledgments
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+- [Microverse](https://www.microverse.org/)
