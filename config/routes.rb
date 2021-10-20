@@ -3,4 +3,7 @@ Rails.application.routes.draw do
   namespace 'api' do
     resources :messages, only: [:index]
   end
+  get '*page', to: 'static#index', constraints: ->(req) do
+    !req.xhr? && req.format.html?
+  end
 end
